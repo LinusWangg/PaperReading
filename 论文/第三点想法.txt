@@ -1,0 +1,25 @@
+深度强化学习实现中国象棋AI
+
+主要内容及要求
+目前强化学习在棋类方面的应用大多数是围棋以及五子棋，在中国象棋和国际象棋方面研究者较少。同时在进行棋类的强化学习算法时，算法容易陷入无聊状态或者
+必死的无意义状态，但由于蒙特卡洛搜索树是基于当前局面进行动作选择，其不具有记忆性，可以在整体流程中增加局面回调的策略，通过比较局面回调情况下和不
+允许局面回调情况下的获胜次数来判断局面回调的是否有利于跳出局部最优。
+
+主要技术指标和研究方法
+完成良好以及友好的界面
+强化学习网络可以指导电脑进行中国象棋的进行
+形成有效的人机对弈局面
+保证训练后的人工智能对于局面的判断力以及对弈胜率
+
+完成课题所具备的条件
+了解中国象棋的基本框架和算法
+有相关的软件开发经验
+掌握了相关的深度强化学习知识
+有论文和文献阅读的能力
+
+主要参考资料
+Chen J X. The evolution of computing: AlphaGo[J]. Computing in Science & Engineering, 2016, 18(4): 4-7.
+Schadd M P D, Winands M H M, Van Den Herik H J, et al. Single-player monte-carlo tree search[C]//International Conference on Computers and Games. Springer, Berlin, Heidelberg, 2008: 1-12.
+Chaslot G, Bakkes S, Szita I, et al. Monte-Carlo Tree Search: A New Framework for Game AI[J]. AIIDE, 2008, 8: 216-217.
+Silver D, Hubert T, Schrittwieser J, et al. A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play[J]. Science, 2018, 362(6419): 1140-1144.
+Trinh T B, Bashi A S, Deshpande N. Temporal difference learning in Chinese Chess[C]//International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems. Springer, Berlin, Heidelberg, 1998: 612-618.
